@@ -1,0 +1,111 @@
+<!-- Enter your HTML code here -->
+<!DOCTYPE html>
+<html lang="EN">
+
+<head>
+    <title>Amazon Books</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+</head>
+
+<body>
+    <!--HTML content goes here-->
+    <main class="w-50 mx-auto mt-40 position-relative">
+        <div class="carousel-container">
+            <h1 class="accordion-title">Book Titles</h1>
+            <div class="accordion" data-testid="1">
+                <div class="title-section" role="button" tabindex="0" aria-controls="desc-1" id="btn-1">
+                    <div class="title">Brazil</div>
+                    <div class="expand-icon">EX</div>
+                    <div class="collapse-icon">COL</div>
+                </div>
+                <div class="description" id="desc-1" role="region" aria-labelledby="btn-1">
+                    Brazil, the largest country in South America, boasts diverse landscapes including the Amazon
+                    Rain forest, vibrant cities
+                    like Rio de Janeiro, and stunning beaches along its extensive coastline. Renowned for its rich
+                    cultural heritage, Brazil
+                    is a melting pot of indigenous, African, and European influences, reflected in its music, cuisine,
+                    and festivals. As an
+                    emerging global economic power, Brazil faces challenges in areas such as deforestation, poverty, and
+                    political
+                    instability, while also striving for sustainable development and social progress.
+                </div>
+            </div>
+
+            <div class="accordion" data-testid="2">
+                <div class="title-section" role="button" tabindex="0" aria-controls="desc-2" id="btn-2">
+                    <div class="title">California</div>
+                    <div class="expand-icon">EX</div>
+                    <div class="collapse-icon">COL</div>
+                </div>
+                <div class="description" id="desc-2" role="region" aria-labelledby="btn-2">
+                    California, located on the western coast of the United States, is renowned for its diverse
+                    landscapes, ranging from
+                    sun-kissed beaches and lush forests to sprawling urban metropolises. It is also known for its
+                    cultural diversity,
+                    technological innovation, and vibrant entertainment industry.
+                </div>
+            </div>
+
+            <div class="accordion" data-testid="3">
+                <div class="title-section" role="button" tabindex="0" aria-controls="desc-3" id="btn-3">
+                    <div class="title">JavaScript and JQuery</div>
+                    <div class="expand-icon">EX</div>
+                    <div class="collapse-icon">COL</div>
+                </div>
+                <div class="description" id="desc-3" role="region" aria-labelledby="btn-3">
+                    This full-color book will show you how to make your websites more interactive and your interfaces
+                    more interesting and intuitive.
+                </div>
+            </div>
+
+            <div class="accordion" data-testid="4">
+                <div class="title-section" role="button" tabindex="0" aria-controls="desc-4" id="btn-4">
+                    <div class="title">Las Vegas</div>
+                    <div class="expand-icon">EX</div>
+                    <div class="collapse-icon">COL</div>
+                </div>
+                <div class="description" id="desc-4" role="region" aria-labelledby="btn-4">
+                    Las Vegas, situated in the Mojave Desert of Nevada, is famous for its vibrant nightlife, luxurious
+                    resorts, and
+                    world-renowned casinos. It's a hub for entertainment, featuring dazzling shows, extravagant hotels,
+                    and a myriad of
+                    dining and shopping options. Las Vegas is often referred to as the "Entertainment Capital of the
+                    World" and attracts
+                    millions of visitors each year with its unique blend of glamour and excitement.
+                </div>
+            </div>
+
+            <div class="accordion" data-testid="5">
+                <div class="title-section" role="button" tabindex="0" aria-controls="desc-5" id="btn-5">
+                    <div class="title">Seattle</div>
+                    <div class="expand-icon">EX</div>
+                    <div class="collapse-icon">COL</div>
+                </div>
+                <div class="description" id="desc-5" role="region" aria-labelledby="btn-5">
+                    Seattle, located in the Pacific Northwest region of the United States, is renowned for its
+                    picturesque natural
+                    surroundings, including Puget Sound and the Cascade and Olympic mountain ranges. It's known for its
+                    thriving tech
+                    industry, with companies like Microsoft and Amazon headquartered in the area. Seattle also boasts a
+                    vibrant cultural
+                    scene, with an eclectic mix of museums, music venues, and performing arts theaters. Additionally,
+                    the city is famous for
+                    its coffee culture, being the birthplace of Starbucks and home to numerous independent coffee shops.
+                </div>
+            </div>
+        </div>
+
+        <div class="multi-select">
+            <label>
+                <input type="checkbox" class="checkbox" id="multiselect" data-testid="multiselect"> Multiple
+            </label>
+        </div>
+    </main>
+
+</body>
+
+<!-- HMR and test infrastructure - DO NOT EDIT -->
+<script src="./bundle.js"></script>
+
+</html>
