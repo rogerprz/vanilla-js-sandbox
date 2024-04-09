@@ -1,0 +1,21 @@
+.title-section {
+  display: flex;
+  font-size: large;
+  color: rgba(62, 71, 197, 0.683);
+  border: 1px solid rgba(62, 71, 197, 0.683);
+}
+
+.title {
+  display: flex;
+  padding: 5px;
+}
+
+.collapse-icon {
+  display: none;
+}
+
+.expand-icon {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
