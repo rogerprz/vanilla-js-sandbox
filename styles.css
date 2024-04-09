@@ -12,10 +12,17 @@
 
 .collapse-icon {
   display: none;
+  justify-content: flex-end;
+  width: 100%;
 }
 
 .expand-icon {
   display: flex;
   justify-content: flex-end;
   width: 100%;
+}
+
+.description {
+  display: none;
+  padding: 5px;
 }
