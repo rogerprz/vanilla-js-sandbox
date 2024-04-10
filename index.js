@@ -53,3 +53,20 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+// const parentForm = document.getElementById("parent");
+// const allInputs = parentForm.querySelectorAll("input");
+
+// const hash = {};
+
+// allInputs.forEach((input) => {
+//   const { name } = input;
+//   console.log("N:", name);
+//   const names = name.split(".");
+//   let tempHash = hash;
+//   for (let text of names) {
+//     tempHash[text] = tempHash[text] || {};
+//     tempHash = tempHash[text];
+//   }
+// });
+// console.log("HASH", hash);
