@@ -3,7 +3,7 @@
 <html lang="EN">
 
 <head>
-    <title>Countries</title>
+    <title>Tabs form</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
 
 </head>
@@ -12,16 +12,31 @@
     <!--HTML content goes here-->
     <main class="w-50 mx-auto mt-40 position-relative">
         <div class="tab-container">
-
+            <button class="tab active" onclick="tabFunction(this)">English</button>
+            <button class="tab" onclick="tabFunction(this)">German</button>
+            <button class="tab" onclick="tabFunction(this)">French</button>
         </div>
 
+        <div class="page-container">
+            <section class="english-container">
+                <p>Hello world</p>
+            </section>
+            <section class="german-container" style="display: none;">
+                <p>Le german</p>
+            </section>
+            <section class="french-container" style="display: none;">
+                <p>Le french hello</p>
+            </section>
 
+        </div>
 
     </main>
 
 </body>
 
 <!-- HMR and test infrastructure - DO NOT EDIT -->
-<script src="./index.js"></script>
+<script src="./tabs.js">
+
+</script>
 
 </html>

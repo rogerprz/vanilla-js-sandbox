@@ -26,3 +26,26 @@
   display: none;
   padding: 5px;
 }
+
+.tab-container {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  background-color: limegreen;
+  display: flex;
+  color: whitesmoke;
+  padding: 20px 30px;
+  border-color: limegreen;
+  height: 30px;
+  border-style: solid;
+}
+
+button.active {
+  background-color: lightblue;
+  color: black;
+  border-color: lightblue;
+  height: 30px;
+  border-top-color: limegreen;
+}
