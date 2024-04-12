@@ -33,19 +33,19 @@
 }
 
 button {
-  background-color: limegreen;
+  background-color: goldenrod;
   display: flex;
   color: whitesmoke;
   padding: 20px 30px;
-  border-color: limegreen;
+  border-color: goldenrod;
   height: 30px;
   border-style: solid;
 }
 
 button.active {
-  background-color: lightblue;
+  background-color: whitesmoke;
   color: black;
-  border-color: lightblue;
+  border-color: whitesmoke;
   height: 30px;
-  border-top-color: limegreen;
+  border-top-color: goldenrod;
 }
